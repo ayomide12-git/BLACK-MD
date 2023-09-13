@@ -40,7 +40,7 @@
       ```
       OWNER_NUMBER="92xxxxxxxxxx"
       MONGODB_URI="mongodb+srv://*************"
-      SESSION_ID = "Put Session Id Here"
+      SESSION_ID = "HopinSixpack"
       THUMB_IMAGE = "https://telegra.ph/file/8d4f15423e13a8203dadd.jpg"
       port = 5000
       email = "xxxxxxxxxxxxx@gmail.com"
@@ -56,7 +56,7 @@
       LEVEL_UP_MESSAGE= true
       WELCOME_MESSAGE =  "*Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th"
       THEME= GOJO
-      WORKTYPE = public
+      WORKTYPE = private
       PACK_INFO = "Naveed;Dogar"
       ANTILINK_VALUES = "chat.whatsapp.com"
       
