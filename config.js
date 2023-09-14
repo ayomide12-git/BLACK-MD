@@ -16,8 +16,8 @@ global.website = 'https://github.com/excelottah6/BLACK-MD' //wa.me/+234000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/38b2287de9e0f6b8ecab1.jpg'
 module.exports = {
   sessionName:  process.env.SESSION_ID ||  "BLACK;;;WardrobeGarner",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  'BLACK BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY EXCEL',
+  author:  process.env.PACK_AUTHER ||  'Blue BOT',
+  packname:  process.env.PACK_NAME || 'MADE BY Ayo',
   
   botname:   process.env.BOT_NAME === undefined ? "BLACK-Md" : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'Ayomide' : process.env.OWNER_NAME,  
@@ -41,8 +41,8 @@ module.exports = {
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
-    API_KEY: process.env.HEROKU_API_KEY === undefined ? '8102157e-a58a-4cba-8462-544c1539ab03' : process.env.HEROKU_API_KEY,
-    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'Ayomide Soetan' : process.env.HEROKU_APP_NAME
+    API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
+    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'GOJO',
