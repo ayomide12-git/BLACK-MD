@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "2347039570336"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "2349011235905"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb://uzkczx40erwz0pohr5b2:smjYeuitaGKhvtwpim7@bnrg0pit9dldcipgv7lz-mongodb.services.clever-cloud.com:2133/bnrg0pit9dldcipgv7lz"
 global.port= process.env.PORT || 5000
 global.email = 'excelottah6@gmail.com'
@@ -15,12 +15,12 @@ global.devs = '2347039570336';
 global.website = 'https://github.com/excelottah6/BLACK-MD' //wa.me/+234000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/38b2287de9e0f6b8ecab1.jpg'
 module.exports = {
-  sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
+  sessionName:  process.env.SESSION_ID ||  "BLACK;;;WardrobeGarner",  //PUT Session Id Here, 
   author:  process.env.PACK_AUTHER ||  'BLACK BOT',
   packname:  process.env.PACK_NAME || 'MADE BY EXCEL',
   
   botname:   process.env.BOT_NAME === undefined ? "BLACK-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'excelottah' : process.env.OWNER_NAME,  
+  ownername: process.env.OWNER_NAME === undefined ? 'Ayomide' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
@@ -41,12 +41,12 @@ module.exports = {
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
-    API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
-    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
+    API_KEY: process.env.HEROKU_API_KEY === undefined ? '8102157e-a58a-4cba-8462-544c1539ab03' : process.env.HEROKU_API_KEY,
+    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'Ayomide Soetan' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'GOJO',
-  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
+  WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
 };
 
 
