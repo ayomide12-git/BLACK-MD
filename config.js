@@ -15,7 +15,7 @@ global.devs = '2347039570336';
 global.website = 'https://github.com/excelottah6/BLACK-MD' //wa.me/+234000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/38b2287de9e0f6b8ecab1.jpg'
 module.exports = {
-  sessionName:  process.env.SESSION_ID ||  "BLACK;;;WardrobeGarner",  //PUT Session Id Here, 
+  sessionName:  process.env.SESSION_ID ||  "BLACK;;;TherapyPenguins",  //PUT Session Id Here, 
   author:  process.env.PACK_AUTHER ||  'Blue BOT',
   packname:  process.env.PACK_NAME || 'MADE BY Ayo',
   
