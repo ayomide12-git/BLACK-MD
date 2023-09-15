@@ -3,14 +3,14 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "2349068926585"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "2349011235905"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb://uzkczx40erwz0pohr5b2:smjYeuitaGKhvtwpim7@bnrg0pit9dldcipgv7lz-mongodb.services.clever-cloud.com:2133/bnrg0pit9dldcipgv7lz"
 global.port= process.env.PORT || 5000
 global.email = 'soetanayomide10@gmail.com'
 global.github = 'https://github.com/excelottah6/BLACK-MD'
 global.location = 'africa lagos'
 global.gurl = 'https://instagram.com/big_dmall/' // add your username
-global.sudo = process.env.SUDO || '2349068926585' 
+global.sudo = process.env.SUDO || '2349011235905' 
 global.devs = '2349068926585';
 global.website = 'https://github.com/excelottah6/BLACK-MD' //wa.me/+234000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/38b2287de9e0f6b8ecab1.jpg'
